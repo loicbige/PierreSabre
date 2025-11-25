@@ -39,7 +39,6 @@ public class Humain {
 		
 	}
 	
-
 	protected void gagnerArgent(int gain) {
 		argent += gain;
 	}
@@ -48,7 +47,7 @@ public class Humain {
 		argent -= perte;
 	}
 	
-	public void parler(String text) {
+	protected void parler(String text) {
 		System.out.println( "(" + nom + ") - " + text);
 	}
 }
