@@ -3,7 +3,7 @@ package histoire;
 import personnages.Humain;
 import personnages.Commercant;
 import personnages.Yakuza;
-import personnages.ronin;
+import personnages.Ronin;
 
 public class HistoireTP4 {
 	public static void main(String[] args) {
@@ -58,7 +58,7 @@ public class HistoireTP4 {
 
 		// --- Test 2.3- Ronin --- [cite: 109-116]
 		System.out.println("--- Test 2.3- Ronin ---");
-		ronin roro = new ronin("Roro", "shochu", 60); // 60 sous à sa création [cite: 110]
+		Ronin roro = new Ronin("Roro", "shochu", 60); // 60 sous à sa création [cite: 110]
 		roro.direBonjour(); // (Roro) - Bonjour! Je m'appelle Roro et j'aime boire du shochu. [cite: 114]
 
 		// On recrée Marco à 0 sous pour l'exemple de réception
@@ -115,7 +115,7 @@ public class HistoireTP4 {
 
 		// On va initialiser Roro à 60 sous, honneur 1 pour le test de défaite [cite:
 		// 110]
-		ronin roro2 = new ronin("Roro", "shochu", 54); // 54 sous pour avoir le même scénario que l'énoncé après défaite
+		Ronin roro2 = new Ronin("Roro", "shochu", 54); // 54 sous pour avoir le même scénario que l'énoncé après défaite
 														// [cite: 140]
 
 		// Le yakuza avec une réputation initialisée à 4 (simulation)

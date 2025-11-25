@@ -1,9 +1,9 @@
 package personnages;
 
-public class ronin extends Humain {
+public class Ronin extends Humain {
 	private int honneur = 1;
 
-	public ronin(String nom, String boisson, int argent) {
+	public Ronin(String nom, String boisson, int argent) {
 		super(nom, boisson, argent);
 	}
 	
